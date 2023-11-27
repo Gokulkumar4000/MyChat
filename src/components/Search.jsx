@@ -87,6 +87,7 @@ const Search = () => {
           onKeyDown={handleKey}
           onChange={(e) => setUsername(e.target.value)}
           value={username}
+          onClick={handleSearch}
         />
       </div>
       {err && <span>User not found!</span>}
