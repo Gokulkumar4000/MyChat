@@ -35,7 +35,7 @@ const Search = () => {
     }
   };
 
-  const handleKey = (e) => {
+  const handleSubmit = (e) => {
     if(e.code === "Enter" || e.key === "Enter"){ e.preventDefault();
   handleSearch();
 }
